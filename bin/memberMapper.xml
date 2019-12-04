@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member">
+
+   <!--  로그인 처리등등 -->
+    <select id="viewMember" resultType="com.sol.member.MemberVO">
+        SELECT
+          userId,
+          userName,
+          userRegdate
+        FROM user where userId = #{userId}        
+    </select>
+    
+  
+    <select id="login" resultType="String">
+      SELECT userId FROM user where userId = #{userId} 
+    </select>
+    
+    <!--  암호화 -->
+    <select id="selectPW" resultType="MemberVO" parameterType="MemberVO">
+      select userPassword from user where userId = #{userId}
+    </select>
+    
+     <!--  회원가입 처리에 대한 부분 -->
+    
+    <insert id="Memberinsert">
+    insert into user(
+          userId, 
+          userPassword, 
+          userPwfindQ, 
+          userPwfindA,
+          userName,
+          userPnum1,
+          userBirth,
+          userAddress,
+          userEmail,
+          userGender,
+          userEmailAgree
+          )values(
+          #{userId},
+          #{userPassword},
+          #{userPwfindQ},
+          #{userPwfindA},
+          #{userName},
+          #{userPnum1},
+          #{userBirth},
+          #{userAddress},
+          #{userEmail},
+          #{userGender},
+          #{userEmailAgree})
+  </insert>
+  
+  <!-- <insert id="Memberinsert">
+    insert into user(
+          userId, 
+          userPassword, 
+          userPwfindQ, 
+          userPwfindA,
+          userName,
+          userPnum1,
+          userBirth,
+          userAddress,
+          userGender,
+          userPoint,
+          userEmail,
+          userEmailAgree
+          )values(
+          #{userId},
+          #{userPassword},
+          #{userPwfindQ},
+          #{userPwfindA},
+          #{userName},
+          #{userPnum1},
+          #{userBirth},
+          #{userAddress},
+          #{userGender},
+          #{userPoint},
+          #{userEmail},
+          #{userEmailAgree} )
+  </insert> -->
+
+
+</mapper>
