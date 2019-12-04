@@ -19,6 +19,6 @@
    ![Alt 자료검색](https://user-images.githubusercontent.com/53854831/70104891-c97a0c80-1682-11ea-8164-a345d58c9131.png)
    <Strong>회원가입</Strong>
    ![Alt 회원가입](https://user-images.githubusercontent.com/53854831/70104904-d0a11a80-1682-11ea-90d7-9c4f9ad1e4c5.png)
-   <Strong></Strong>
+   <Strong>모달창</Strong>
    ![Alt 모달창](https://user-images.githubusercontent.com/53854831/70104920-d5fe6500-1682-11ea-93e8-bbdd706f0be5.png)
    
