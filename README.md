@@ -9,8 +9,8 @@
   2. 학원 과정중에 배운 내용을 토대로 라이브러리를 적극 활용하여 제작하였습니다.
   3. 일반적인 사이트에서 구현할 수 있는 점은 대부분 구현해놨습니다.
   
-  ERD & UseCase
-  --------------------
+   ERD & UseCase
+  ---------------------
   1. <Strong>ERD</Strong>
    ![Alt ERD](https://user-images.githubusercontent.com/53854831/70405400-60c6d180-1a80-11ea-9590-6cb0aaed09e9.png)
   2. <Strong>UseCase</Strong>
