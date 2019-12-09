@@ -13,7 +13,7 @@
   ---------------------
   1. <Strong>ERD</Strong>
    ![Alt ERD](https://user-images.githubusercontent.com/53854831/70405400-60c6d180-1a80-11ea-9590-6cb0aaed09e9.png)
-  2. <Strong>UseCase</Strong>
+  2. <Strong>UseCase</Strong><br>
    ![Alt UseCase](https://user-images.githubusercontent.com/53854831/70406825-4ba07180-1a85-11ea-879e-521192ae0d2e.png)
    
    스크린샷
